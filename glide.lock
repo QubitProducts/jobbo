@@ -1,8 +1,8 @@
-hash: 3f3b75577cb0a97f16b38366356e5781b81c69448fbc9425b05c96adbf8fdb94
-updated: 2016-10-24T11:45:23.309582763+01:00
+hash: 793640ffb5c1e0815bc3d7f568743a9e93342e156fc8e0b74bef0914602f6d17
+updated: 2016-10-26T18:38:50.908484207+01:00
 imports:
 - name: github.com/coreos/etcd
-  version: 317284dd05065d432dc74cb2ca10c5b547155282
+  version: 746612e141a2803f77f854414c00ed9f44195a84
   repo: https://github.com/bluepeppers/etcd.git
   vcs: git
   subpackages:
@@ -23,9 +23,9 @@ imports:
 - name: github.com/pkg/errors
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
 - name: github.com/spf13/cobra
-  version: 856b96dcb49d6427babe192998a35190a12c2230
+  version: 6e91dded25d73176bf7f60b40dd7aa1f0bf9be8d
 - name: github.com/spf13/pflag
-  version: 08b1a584251b5b62f458943640fc8ebd4d50aaa5
+  version: 5ccb023bc27df288a957c5e994cd44fd19619465
 - name: github.com/ugorji/go
   version: f1f1a805ed361a0e078bb537e4ea78cd37dcf065
   subpackages:
