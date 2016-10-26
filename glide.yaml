@@ -1,0 +1,23 @@
+package: github.com/QubitProducts/jobbo
+import:
+- package: github.com/coreos/etcd
+  repo: https://github.com/bluepeppers/etcd.git
+  vcs: git
+  version: leader-sync-deadlock
+  subpackages:
+  - client
+- package: github.com/golang/glog
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+  - ptypes/timestamp
+- package: github.com/pborman/uuid
+  version: ^1.0.0
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: github.com/spf13/cobra
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  version: ^1.0.3
